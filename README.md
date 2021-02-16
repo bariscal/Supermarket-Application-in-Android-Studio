@@ -41,3 +41,9 @@ This project is a supermarket application. User enters information's of a produc
 • Time Unit
 
 • AppCompat Activity
+
+# Screenshots
+https://github.com/bariscal/Supermarket-Application-in-Android-Studio/tree/main/screenshots
+
+# Video
+https://github.com/bariscal/Supermarket-Application-in-Android-Studio/tree/main/video
