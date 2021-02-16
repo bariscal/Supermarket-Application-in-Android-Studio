@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#9F9C99"
+    android:id="@+id/tab2">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="346dp"
+        android:orientation="vertical"
+        android:background="#FF69BB"
+        >
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+
+        />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_add"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add to BASKET - INSERTED"
+        android:layout_alignBottom="@id/listView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/button_add_generated"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Add to BASKET - GENERATED"
+        android:layout_alignBottom="@id/listView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/reset_datas"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Reset Datas"
+        android:layout_alignBottom="@id/listView"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img"
+        android:layout_weight="0">
+
+    </ImageView>
+-->
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AMOUNT: "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DATE: "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CARD NUMBER: XXXX XXXX XXXX 0092"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERSONAL MESSAGE: +90 (XXX) XXX 6368"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD: "
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberPassword"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"/>
+
+    <Button
+        android:id="@+id/last_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exıt"/>
+
+
+
+
+
+</LinearLayout>
